@@ -1,0 +1,18 @@
+[package]
+name = "string_view"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+arrow2 = "*"
+
+[dev-dependencies]
+criterion = "*"
+rand = "*"
+
+[[bench]]
+name = "take"
+harness = false
