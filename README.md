@@ -13,3 +13,10 @@ venv/bin/pip install -U pip && pip install matplotlib
 venv/bin/python summarize.py
 # open array_vs_view.png
 ```
+
+## Update bindgen
+
+```bash
+cargo install bindgen
+bindgen string_view.h -o string_view.rs
+```

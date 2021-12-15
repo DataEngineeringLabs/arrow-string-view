@@ -9,6 +9,9 @@ license = "Apache-2.0"
 [dependencies]
 arrow2 = "*"
 
+[build-dependencies]
+bindgen = "0.53.1"
+
 [dev-dependencies]
 criterion = "*"
 rand = "*"

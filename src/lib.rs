@@ -1,3 +1,5 @@
+mod string_view;
+
 use arrow2::array::Array;
 use arrow2::array::Utf8Array;
 use arrow2::buffer::Buffer;
